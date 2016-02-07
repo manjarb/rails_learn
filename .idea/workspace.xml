@@ -4,30 +4,12 @@
     <list default="true" id="8187f81d-4448-4995-9736-715c64501255" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/default_start_project/Procfile" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/default_start_project/config/puma.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample_app/app/views/microposts/_micropost.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample_app/app/views/shared/_feed.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample_app/app/views/shared/_user_info.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample_app/config/initializers/carrier_wave.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/rails.iml" afterPath="$PROJECT_DIR$/.idea/rails.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/default_start_project/Gemfile" afterPath="$PROJECT_DIR$/default_start_project/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/default_start_project/config/initializers/backtrace_silencers.rb" afterPath="$PROJECT_DIR$/default_start_project/config/initializers/backtrace_silencers.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/default_start_project/test/test_helper.rb" afterPath="$PROJECT_DIR$/default_start_project/test/test_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample_app/Gemfile" afterPath="$PROJECT_DIR$/sample_app/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample_app/Gemfile.lock" afterPath="$PROJECT_DIR$/sample_app/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample_app/app/assets/stylesheets/custom.css.scss" afterPath="$PROJECT_DIR$/sample_app/app/assets/stylesheets/custom.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample_app/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/sample_app/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample_app/app/controllers/static_pages_controller.rb" afterPath="$PROJECT_DIR$/sample_app/app/controllers/static_pages_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample_app/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/sample_app/app/controllers/users_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample_app/app/models/user.rb" afterPath="$PROJECT_DIR$/sample_app/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample_app/app/views/shared/_error_messages.html.erb" afterPath="$PROJECT_DIR$/sample_app/app/views/shared/_error_messages.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample_app/app/views/static_pages/home.html.erb" afterPath="$PROJECT_DIR$/sample_app/app/views/static_pages/home.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample_app/app/views/users/edit.html.erb" afterPath="$PROJECT_DIR$/sample_app/app/views/users/edit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample_app/app/views/users/new.html.erb" afterPath="$PROJECT_DIR$/sample_app/app/views/users/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample_app/app/views/users/show.html.erb" afterPath="$PROJECT_DIR$/sample_app/app/views/users/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample_app/config/routes.rb" afterPath="$PROJECT_DIR$/sample_app/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample_app/config/initializers/carrier_wave.rb" afterPath="$PROJECT_DIR$/sample_app/config/initializers/carrier_wave.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample_app/db/schema.rb" afterPath="$PROJECT_DIR$/sample_app/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample_app/db/seeds.rb" afterPath="$PROJECT_DIR$/sample_app/db/seeds.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/toy_app/config/routes.rb" afterPath="$PROJECT_DIR$/toy_app/config/routes.rb" />
     </list>
     <ignored path="rails.iws" />
@@ -50,71 +32,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample_app/app/views/users/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.8387096">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_micropost.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample_app/app/views/microposts/_micropost.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.548387">
-              <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="picture_uploader.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample_app/app/uploaders/picture_uploader.rb">
+      <file leaf-file-name="user.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sample_app/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+              <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="carrier_wave.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample_app/config/initializers/carrier_wave.rb">
+      <file leaf-file-name="relationship.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sample_app/app/models/relationship.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="static_pages_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample_app/app/controllers/static_pages_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="micropost.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sample_app/app/models/micropost.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31592688">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_micropost_form.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample_app/app/views/shared/_micropost_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.275862">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.11488251">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -135,8 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sample_app/config/environments/production.rb" />
-        <option value="$PROJECT_DIR$/default_start_project/config/puma.rb" />
         <option value="$PROJECT_DIR$/sample_app/config/puma.rb" />
         <option value="$PROJECT_DIR$/default_start_project/Procfile" />
         <option value="$PROJECT_DIR$/sample_app/Procfile" />
@@ -175,7 +105,6 @@
         <option value="$PROJECT_DIR$/sample_app/app/views/shared/_error_messages.html.erb" />
         <option value="$PROJECT_DIR$/sample_app/app/views/users/edit.html.erb" />
         <option value="$PROJECT_DIR$/sample_app/app/views/shared/_user_info.html.erb" />
-        <option value="$PROJECT_DIR$/sample_app/app/models/user.rb" />
         <option value="$PROJECT_DIR$/sample_app/app/controllers/static_pages_controller.rb" />
         <option value="$PROJECT_DIR$/sample_app/app/views/shared/_feed.html.erb" />
         <option value="$PROJECT_DIR$/sample_app/app/views/static_pages/home.html.erb" />
@@ -184,8 +113,11 @@
         <option value="$PROJECT_DIR$/sample_app/app/views/microposts/_micropost.html.erb" />
         <option value="$PROJECT_DIR$/sample_app/app/views/shared/_micropost_form.html.erb" />
         <option value="$PROJECT_DIR$/sample_app/app/uploaders/picture_uploader.rb" />
-        <option value="$PROJECT_DIR$/sample_app/config/initializers/carrier_wave.rb" />
         <option value="$PROJECT_DIR$/sample_app/app/models/micropost.rb" />
+        <option value="$PROJECT_DIR$/sample_app/config/initializers/carrier_wave.rb" />
+        <option value="$PROJECT_DIR$/sample_app/db/migrate/20160207084909_create_relationships.rb" />
+        <option value="$PROJECT_DIR$/sample_app/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/sample_app/app/models/relationship.rb" />
       </list>
     </option>
   </component>
@@ -704,22 +636,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sample_app/app/mailers/application_mailer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample_app/test/mailers/user_mailer_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sample_app/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5358593">
@@ -968,14 +884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample_app/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40208876">
-          <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sample_app/db/migrate/20160205063555_create_microposts.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11488251">
@@ -1066,39 +974,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sample_app/app/views/microposts/_micropost.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.548387">
+        <state vertical-scroll-proportion="0.14965986">
           <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample_app/app/views/shared/_micropost_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.275862">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sample_app/app/uploaders/picture_uploader.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.45953003">
           <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample_app/config/initializers/carrier_wave.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sample_app/app/controllers/static_pages_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.028720627">
           <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
           <folding />
         </state>
@@ -1106,8 +998,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sample_app/app/models/micropost.rb">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.057441253">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample_app/app/views/shared/_micropost_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17959183">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample_app/config/initializers/carrier_wave.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.057441253">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample_app/db/migrate/20160207084909_create_relationships.rb">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31592688">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample_app/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample_app/app/models/relationship.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11488251">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
