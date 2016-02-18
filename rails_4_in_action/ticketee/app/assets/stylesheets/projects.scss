@@ -1,0 +1,128 @@
+// Place all the styles related to the projects controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome";
+
+.page-header {
+  position: relative;
+  padding-bottom: 0px;
+  &:first-child {
+    margin-top: 20px;
+  }
+}
+
+header {
+  @extend .page-header;
+  position: relative;
+  padding-bottom: 0px;
+  &:first-child {
+    margin-top: 20px;
+  }
+}
+
+
+ul.actions {
+  @extend .list-unstyled;
+  @extend .list-inline;
+  position: absolute;
+  bottom: -2px;
+  right: 2px;
+  max-width: 45%;
+  text-align: right;
+}
+
+a.new {
+  @extend .btn;
+  @extend .btn-success;
+  &:before {
+    font-family: "FontAwesome";
+    @extend .fa-plus;
+    padding-right: 0.5em;
+  }
+}
+
+a.edit {
+  @extend .btn;
+  @extend .btn-primary;
+  &:before {
+    font-family: "FontAwesome";
+    @extend .fa-pencil;
+    padding-right: 0.5em;
+  } }
+a.delete {
+  @extend .btn;
+  @extend .btn-danger;
+  &:before {
+    font-family: "FontAwesome";
+    @extend .fa-trash;
+    padding-right: 0.5em;
+  }
+}
+
+#projects h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 20px 0px 0px;
+}
+
+.alert-notice {
+  @extend .alert-success;
+}
+.alert-alert {
+  @extend .alert-danger;
+}
+
+body {
+  padding-top: 70px;
+}
+
+
+@media(max-width: 500px) {
+  p {
+    color: red;
+  }
+
+}
+
+@media(min-width: $screen-sm-min) {
+  header {
+    h1, h2, h3, h4, h5, h6 {
+      max-width: 55%;
+    } }
+  ul.actions {
+    position: absolute;
+    bottom: -2px;
+    right: 2px;
+    max-width: 45%;
+    text-align: right;
+  }
+}
+
+#attributes {
+  @extend .table;
+  @extend .table-condensed;
+  width: 65%;
+  th {
+    width: 35%;
+  }
+  tr:first-child {
+    td, th {
+      border-top: 0px;
+    }
+  }
+  td, th {
+    line-height: 24px !important;
+  }
+}
+
+#admin .col-md-3 h2 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #959595;
+  padding-left: 15px;
+}
+

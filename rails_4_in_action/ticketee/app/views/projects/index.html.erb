@@ -1,0 +1,18 @@
+<div class="page-header">
+  <h1>Projects</h1>
+  <ul class="actions">
+    <li><%= link_to fa_icon("plus") + " New Project", new_project_path,
+                        class: "btn btn-success new" %></li>
+    <li>
+      <%= link_to "New Project", new_admin_project_path, class: "new" %>
+    </li>
+  </ul>
+</div>
+
+<div id="projects">
+  <% @projects.each do |project| %>
+      <h2><%= link_to project.name, project %></h2>
+      <p><%= project.description %></p>
+  <% end %>
+</div>
+
